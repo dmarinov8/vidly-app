@@ -1,0 +1,44 @@
+{
+  "name": "vidly-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "set NODE_ENV=test&& jest --env=node --runInBand --verbose --coverage --forceExit",
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "8.9.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "compression": "^1.7.4",
+    "config": "^3.2.4",
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "fawn": "^2.1.5",
+    "helmet": "^3.21.2",
+    "joi": "^14.3.1",
+    "joi-objectid": "^3.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "mongoose": "^5.7.7",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.4",
+    "pug": "^2.0.4",
+    "winston": "^3.2.1",
+    "winston-mongodb": "^5.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "jest": "^24.9.0",
+    "mocha": "^6.2.2",
+    "mockgoose": "^8.0.3",
+    "supertest": "^4.0.2"
+  }
+}
